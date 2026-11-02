@@ -1,0 +1,28 @@
+{
+  "classification": {
+    "train_size": 2400,
+    "test_size": 960,
+    "categories": 12,
+    "model_accuracy": 0.6666666666666666,
+    "model_macro_f1": 0.6777777777777777,
+    "hybrid_accuracy": 0.8333333333333334,
+    "hybrid_macro_f1": 0.8333333333333331,
+    "rules_accuracy": 0.75,
+    "rules_macro_f1": 0.7282051282051282,
+    "severity_accuracy": 0.8333333333333334,
+    "flagged_uncertain_rate": 0.125,
+    "accuracy_when_not_flagged": 0.9523809523809523,
+    "model_confident_rate": 0.5416666666666666,
+    "accuracy_when_model_confident": 0.9230769230769231,
+    "high_severity_recall": 0.875
+  },
+  "relevance": {
+    "scenarios": 200,
+    "notams_evaluated": 12000,
+    "recall": 1.0,
+    "precision": 1.0,
+    "briefing_reduction": 0.8,
+    "ms_per_flight_briefing": 29.914791390000065,
+    "errors": {}
+  }
+}
